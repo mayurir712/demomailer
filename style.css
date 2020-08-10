@@ -68,7 +68,7 @@ button {font-size: 13px !important;}
    .mt-4 { margin-top:6px !important;}
    .link ,.link a { font-size: 12px;}
    .mb-4, .my-4 { margin-bottom: 6px !important;}    
-  .btn { font-size: 10px !important;}
+  .btn { font-size: 10px !important; padding-top:5px !important; padding-bottom:5px !important;}
   .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin-bottom: 0 !important;}
   ul li { margin-bottom: 0 !important;}
   .hide { display: none;}       
