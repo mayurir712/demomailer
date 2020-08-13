@@ -51,6 +51,8 @@ button {font-size: 13px !important;}
     line-height:40px ;
     /*padding-top: 12px;*/}
 .red { color: red;}
+.redbg { background-color: red; color: white !important; }
+.whitebg {color: black; background: white; }
 .link  {font-size: 1.3rem;  }
 .link a {font-size: 1.2rem; color: black;}
 .inner-panel h5 { margin-bottom: 0;}
