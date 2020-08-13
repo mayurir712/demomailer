@@ -1,12 +1,13 @@
 body {
  margin: 0;
  padding: 0;
- background-color:#f2f2f2 ;
+ background-color:#1a1a1a ;
  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
  color:black;
 line-height: 22px; 
 }
-
+.bg2 {background-color:#00625c ;}
+.outer-panel2 {box-shadow: 1px 2px 10px rgb(0,0,0,0.34);}
 ul {float: left; width: 49%; padding: 0 0 0 1%;
     }
 ul li {margin-left:2%; margin-bottom: 2%; }
@@ -15,9 +16,12 @@ ul li a {color:black;}
 
 a {display: block;}
 a:hover {color:#e1341e;}
-.red { background-color: red; color: white !important; }
-.white {color: black; background: white; }
+.yellowochr { background-color: #f9ad3d; color: black !important; }
+/* .dcyan{ background-color:#00625c; color: white;} */
+.dblue{ background-color:#263645; color: white;}
+.white {color: black; }
 .alignvertically { align-items: center;}
+.outer-panel2 { background-color:none;}
 .outer-panel{
     width:60%;
     margin: 0 auto;
@@ -30,6 +34,9 @@ a:hover {color:#e1341e;}
     justify-content:center;
 }
 
+.inner-panel1 { background-color: white;} 
+.inner-panel2 { background-color: white;} 
+.centerdiv {margin: 0 auto !important; width: 60%;}
 .inner-panel{
     width: 96%; margin: 0 auto;
 }
@@ -44,15 +51,15 @@ button {font-size: 13px !important;}
     /*padding-top: 12px;*/}
 .red { color: red;}
 .link  {font-size: 1.3rem;  }
-.link a {font-size: 1.2rem; color: white;}
+.link a {font-size: 1.2rem; color: black;}
 .inner-panel h5 { margin-bottom: 0;}
+.btn:hover { color: white;}
+img {border:0;}
 @media only screen and (max-device-width:992px){
     
     .outer-panel
      { padding:0 3% ;
         width:94%;}
-       
-
     .title-text { padding-top:5%;}
     .circle {border:0;}
     ul li { margin-left: 10%;}
@@ -68,8 +75,9 @@ button {font-size: 13px !important;}
    .mt-4 { margin-top:6px !important;}
    .link ,.link a { font-size: 12px;}
    .mb-4, .my-4 { margin-bottom: 6px !important;}    
-  .btn { font-size: 10px !important; padding-top:5px !important; padding-bottom:5px !important;}
+  .btn { font-size: 10px !important; padding-top:5px !important; padding-bottom:5px !important; }
   .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { margin-bottom: 0 !important;}
   ul li { margin-bottom: 0 !important;}
-  .hide { display: none;}       
+  .hide { display: none;}   
+  .centerdiv { width: 80%;}    
 } 
